@@ -70,8 +70,7 @@ export default {
   },
   methods:{
     sel(){
-      this.show = false;
-
+      this.showSlide = false;
       const date = getDate(this.year+'-'+this.month+'-'+this.day);
       this.onOk(date)
     },

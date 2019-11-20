@@ -72,7 +72,7 @@ export default {
       // console.log(t);
       this.domStyle =  this.style =  {
         transform:'translate3d(0px, '+y+'px, 0px)',
-        transition:"all " + t + "s cubic-bezier(0.1, 0.85, 0.25, 1) 0s"
+        transition:"transform " + t + "s cubic-bezier(0.1, 0.85, 0.25, 1) 0s"
       }
       //停止后的回调
       this.change(this.d[this.itemKey],this.itemKey,this.selType)

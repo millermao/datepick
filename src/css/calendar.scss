@@ -22,7 +22,6 @@ $screen: 375;
     align-items: center;
     align-content: center;
     overflow: hidden;
-    height: px2vw(200);
   }
   .m-picker-mark{
     position: absolute;
@@ -100,15 +99,15 @@ $screen: 375;
 }
 
 .fade-enter-active, .fade-leave-active {
-  transition: opacity .2s;
-  -webkit-transition: opacity .2s;
+  transition: opacity .1s;
+  -webkit-transition: opacity .1s;
   opacity: 1
 }
 .fade-enter, .fade-leave-to /* .fade-leave-active 在低于版本 2.1.8 中 */ {
   opacity: 0
 }
 .slide-enter-active,.slide-leave-active{
-  transition: transform .2s;
+  transition: transform .3s;
 }
 .slide-enter,.slide-leave-to{
   transform: translateY(100%)
